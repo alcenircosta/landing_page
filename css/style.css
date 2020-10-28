@@ -80,7 +80,14 @@ html,body{
 .input-container input[type=text]:focus{
 	outline: 0;
 }
-.input-container input[type=text]{
+.input-container input[type=email]:focus{
+	outline: 0;
+}.input-container input[type=number]:focus{
+	outline: 0;
+}
+.input-container input[type=text],
+.input-container input[type=email],
+.input-container input[type=number]{
 	margin-top:8px;
 	width: 344px;
 	padding: 8px 10px 8px 10px;
@@ -104,7 +111,7 @@ html,body{
 	border-bottom: 5px solid #4A5097;
 }
 .form input[type=submit]:hover{
-	background-color: #323665;
+	background-color: black;
 }
 .container-list{
 	padding:30px;
